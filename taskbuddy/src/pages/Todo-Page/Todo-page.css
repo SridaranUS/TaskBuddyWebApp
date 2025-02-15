@@ -1,0 +1,20 @@
+
+.Todo-Page{
+ 
+  overflow-y : scroll;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+  background-image: none;
+  background-color: white;
+   overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none; 
+}
+
+html, body {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+

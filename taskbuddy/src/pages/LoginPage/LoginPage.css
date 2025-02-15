@@ -1,0 +1,117 @@
+.login-page {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/backgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.login-Container {
+  width: 450px;
+  height: 200px;
+  margin-top: 316px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-Content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  height: 134px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.headerTitle {
+  color: #7b1984;
+}
+.google-btn {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.google-btn:hover {
+  background-color: #f1f1f1;
+}
+@media screen and (max-width: 768px) {
+  .login-page {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/background-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  .login-Container {
+    width: 460px;
+    height: 200px;
+    margin-top: 75%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-Content {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 359px;
+    height: 134px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .headerTitle {
+    color: #7b1984;
+    margin: 0px auto;
+  }
+  .google-btn {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .google-btn img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  .login-header {
+    padding-left: 33px;
+  }
+}

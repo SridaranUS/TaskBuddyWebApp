@@ -1,0 +1,15 @@
+.radiocontainer {
+  width: 300px;
+  height: 200px;
+  background-color: beige;
+}
+.widget {
+  width: 500px;
+  height: 50px;
+  background-color: aquamarine;
+}
+.page {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}

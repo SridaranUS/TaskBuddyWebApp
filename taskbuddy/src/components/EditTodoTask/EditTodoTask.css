@@ -1,0 +1,411 @@
+.edit-task-container {
+  max-width: 70%;
+  height: 500px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  gap: 20px;
+  justify-content: left;
+  overflow-y: scroll;
+}
+.edit-floatContainer {
+  display: flex;
+  flex-direction: column;
+}
+.editContainer {
+  display: flex;
+  height: 480px;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.edit-TodoHeader {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.edit-cancel-popUp {
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+}
+.edit-task-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.task-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.task-description {
+  margin-top: 5px;
+}
+
+.task-description ul {
+  padding-left: 20px;
+}
+
+.task-description ol {
+  padding-left: 20px;
+}
+.ql-container.ql-snow {
+  height: 100px;
+  overflow: scroll;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.ql-container.ql-snow::-webkit-scrollbar {
+  display: none;
+}
+.edit-task-details {
+  margin: 30px auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.edit-category-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.category-label,
+.data-label,
+.status-label {
+  font-weight: bold;
+}
+
+.edit-category-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.edit-category-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.edit-category-button:hover {
+  background: #f0f0f0;
+  box-shadow:
+    rgba(123, 25, 132, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.DetailsButton-Group {
+  display: none;
+}
+.edit-category-button.selected {
+  background: #7b1984;
+  box-shadow: 0px 0px 5px #7b1984;
+  border-color: #7b1984;
+}
+.edit-dueDate {
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.edit-status {
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.edit-dropzone {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.edit-fileDetails {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.edit-fileName {
+  font-weight: bold;
+  color: #32abda;
+}
+
+.edit-imagePreview {
+  width: 200px;
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.activity-container {
+  width: 30%;
+}
+.activity-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.edit-footer-content {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  gap: 20px;
+  background: #f0f0f0;
+  border-top: 1px solid black;
+  align-items: center;
+}
+.cancel-button {
+  width: 90px;
+  height: 34px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.task-button {
+  width: 90px;
+  height: 34px;
+  background-color: #7b1984;
+  border: 1px solid #7b1984;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.task-button:hover {
+  box-shadow:
+    rgba(123, 25, 132, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cancel-button:hover {
+  box-shadow:
+    rgba(123, 25, 132, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn-edit-show {
+  display: block !important;
+}
+
+.btn-edit-hide {
+  display: none !important;
+}
+.activity-details {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  overflow-y: scroll;
+}
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+}
+.activity-name {
+  width: 150px;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 768px) {
+  .edit-floatContainer {
+    width: 96vw;
+    height: 90vh;
+    margin-left: -7px;
+    display: flex;
+    margin-top: -4px;
+    flex-direction: row !important;
+    border-radius: 10px;
+    background-color: white !important;
+    box-sizing: border-box;
+    border: 1px solid black !important;
+  }
+  .DetailsButton-Group {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 34px;
+  }
+  .details-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .activity-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .activity-button:hover {
+    background-color: black;
+    color: white;
+  }
+  .details-button:hover {
+    background-color: black;
+    color: white;
+  }
+  .editContainer {
+    left: 11px;
+    position: absolute;
+    width: 94vw;
+    height: 86vh !important;
+    height: fit-content;
+    display: block;
+  }
+  .edit-task-container {
+    position: absolute;
+    max-width: 100vw;
+    height: 531px;
+    margin: 30px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    justify-content: left;
+    overflow-y: visible;
+  }
+  .edit-task-input {
+    width: 89vw;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-left: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .quill {
+    width: 89vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .edit-task-details {
+    width: 88vw;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+  .edit-category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .edit-dropzone {
+    border: 2px dashed #007bff;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .edit-footer-content {
+    position: absolute;
+    bottom: -256px;
+    border-radius: 10px;
+    width: 95vw;
+    height: 71px;
+    background-color: #f1f1f1;
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    border: 1px solid grey;
+  }
+  .activity-edit-show {
+    display: block !important;
+  }
+
+  .activity-edit-hide {
+    display: none !important;
+  }
+  .activity-container {
+    width: 30%;
+    position: absolute;
+  }
+  .edit-fileDetails {
+    display: none;
+  }
+  .edit-attachment {
+    width: 88vw;
+    margin: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cancel-button {
+    width: 90px;
+    height: 34px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .task-button {
+    width: 90px;
+    height: 34px;
+    background-color: #7b1984;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .edit-cancel-popUp {
+    margin-top: -20px;
+    top: 22px;
+    font-size: 15px;
+    position: relative;
+  }
+  .activity-details {
+    width: 97vw;
+    height: 70vh;
+    list-style: none;
+    overflow: scroll;
+  }
+  .activity-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 35px 10px 20px;
+  }
+  .activity-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 300;
+  }
+}

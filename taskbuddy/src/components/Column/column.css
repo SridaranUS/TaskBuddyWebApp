@@ -1,0 +1,12 @@
+.column{
+    width: 100%;
+    max-height: fit-content;
+}
+
+.column {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}
+.column::-webkit-scrollbar { 
+    display: none;  
+}

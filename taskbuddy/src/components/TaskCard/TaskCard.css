@@ -1,0 +1,118 @@
+.draggable-card {
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease-in-out;
+  width: 330px;
+  height: 100px;
+}
+
+.draggable-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  width: 200px;
+  text-wrap: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+  margin: 5px 0px 0px 10px;
+}
+.card-description {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #a3a3a3;
+}
+.card-headerContainer {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-footerContainer {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  gap: 125px;
+}
+.card-moreOption {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #a3a3a3;
+  margin-right: 10px;
+}
+.card-moreOption {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: white !important;
+}
+.card-editBtn {
+  display: flex;
+  gap: 5px;
+  height: 20px;
+  padding: 2px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card-deleteBtn {
+  display: flex;
+  gap: 5px;
+  margin-left: 10px;
+  height: 20px;
+  padding: 2px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.card-editBtn:hover,
+.card-deleteBtn {
+  background-color: whitesmoke;
+}
+
+.card-edit-container {
+  width: calc(100% - 40%);
+  max-height: 600px;
+  background-color: #f1f1f1;
+  position: absolute;
+  display: none;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  top: 100px;
+  left: 400px;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+.card-dropdown-task {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -12px;
+  margin-left: -100px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  z-index: 100;
+  box-shadow: rgba(235, 83, 202, 0.15) 1.95px 1.95px 2.6px;
+}

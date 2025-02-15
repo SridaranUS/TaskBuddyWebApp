@@ -1,0 +1,47 @@
+.boardCard-container {
+  display: flex;
+  flex-direction: column;
+  width: 23rem;
+  border-radius: 0.5rem;
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+.board-no-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60%;
+  margin-bottom: 60%;
+}
+.text-heading {
+  width: 100px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.card-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+}
+.text-heading-Todo,
+.text-heading-In-Progress,
+.text-heading-Completed {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  width: 90px;
+  padding: auto;
+  height: 30px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+.text-heading-Todo {
+  background-color: #fac3ff;
+}
+.text-heading-In-Progress {
+  background-color: #85d9f1;
+}
+.text-heading-Completed {
+  background-color: #a2d6a0;
+}
