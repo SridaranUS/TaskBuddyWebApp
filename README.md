@@ -53,7 +53,7 @@ npm install  # or yarn install
    ```sh
    npm run dev  # or yarn dev
    ```
-   Open [http://localhost:5173](http://localhost:5173) to view the app.
+   Open [https://taskbuddy-d67d7.web.app](https://taskbuddy-d67d7.web.app) to view the app.
 
 ## 🏆 Challenges Faced & Solutions
 ### 1️⃣ **Chunk Size Warning in Vite**
