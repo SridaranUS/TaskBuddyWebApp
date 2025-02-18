@@ -53,8 +53,8 @@ npm install  # or yarn install
    ```sh
    npm run dev  # or yarn dev
    ```
-   Open [https://taskbuddy-d67d7.web.app](https://taskbuddy-d67d7.web.app) to view the app.
-
+   Open [https://taskbuddy-d67d7.web.app](https://taskbuddy-d67d7.web.app) to view the app.=======
+ 
 ## 🏆 Challenges Faced & Solutions
 ### 1️⃣ **Chunk Size Warning in Vite**
 **Issue:** Some chunks were larger than 500kB.
@@ -66,7 +66,7 @@ npm install  # or yarn install
 
 ###2️⃣ **Google Sign-In Not Persisting**
 **Issue:** Getting Users details from Google Sign-In and rendering is the difficult task
-**Solution:** Used local storage to store
+**Solution:** Used local storage to store the user details
 
 ## 🛠 Future Enhancements
 - **Dark Mode Support** for better user experience.
@@ -77,7 +77,6 @@ npm install  # or yarn install
 
 ## 👨‍💻 Contributors
 - [Sridaran Sivakumar](https://github.com/SridaranSivakumar)
-- **Open for Contributions!** Feel free to fork and submit a pull request.
 
 
 
